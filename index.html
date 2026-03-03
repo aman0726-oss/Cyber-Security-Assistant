@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <h1>🛡 Cyber Security Assistant</h1>
+        <p class="subtitle">Advanced Password Strength Analyzer</p>
+
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Enter your password">
+            <button id="toggleBtn">👁</button>
+        </div>
+
+        <div class="strength-wrapper">
+            <div id="strength-bar"></div>
+        </div>
+
+        <div class="info">
+            <h3 id="strength-text">Security Level: -</h3>
+            <p id="score">Score: 0 / 10</p>
+            <p id="crack-time"></p>
+            <p id="badge"></p>
+        </div>
+
+        <div class="suggestions">
+            <h4>Security Suggestions</h4>
+            <ul id="suggestion-list"></ul>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
