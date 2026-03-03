@@ -1,82 +1,92 @@
 🛡 Cyber Security Assistant
 Advanced Password Strength Analyzer
-📌 Project Description
-Cyber Security Assistant is a web-based Password Strength Analyzer that evaluates the security level of a password based on:
+A modern web-based cybersecurity tool designed to evaluate password strength and promote secure digital practices.
 
-Length
+🚀 About The Project
+Cyber Security Assistant is an interactive password strength analyzer that evaluates password security using real-time validation techniques.
 
-Uppercase letters
+It analyzes:
 
-Lowercase letters
+Password length
 
-Numbers
+Character diversity (uppercase, lowercase, numbers, symbols)
 
-Special characters
+Weak password database matches
 
-Common weak passwords
+Repeated character patterns
 
-Repeated and sequential patterns
+Sequential character patterns
 
-The tool provides a security score, strength level, estimated crack time, and suggestions to help users create stronger passwords.
+The system generates a security score, strength classification, estimated crack time, and actionable suggestions to improve password security.
 
-🚀 Features
-🔐 Live password strength analysis
-
-📊 Security score (0–10 scale)
-
+✨ Key Highlights
+🔐 Real-time password strength evaluation
+📊 Security score calculation (0–10 scale)
 🎨 Animated strength meter
+⏳ Estimated password crack time
+🏷 Dynamic security level badge
+👁 Password visibility toggle
+📱 Fully responsive UI
+⚠ Weak password detection
+🔎 Pattern recognition logic
 
-⏳ Estimated crack time indicator
+🧠 How It Works
+User enters a password.
 
-🏷 Security level badge (Beginner → Security Master)
+JavaScript evaluates the password using defined security rules.
 
-📋 Smart improvement suggestions
+A normalized score is calculated.
 
-👁 Password show/hide toggle
+The system dynamically updates:
 
-📱 Fully responsive design
+Strength meter
 
-⚠ Common weak password detection
+Security level
 
-🔎 Pattern detection (repeated & sequential characters)
+Crack time estimation
 
-🛠 Technologies Used
+Improvement suggestions
+
+All processing is performed client-side for fast, real-time feedback.
+
+🛠 Built With
 HTML5
 
-CSS3 (Responsive Design + Animations)
+CSS3 (Animations & Responsive Design)
 
-JavaScript (DOM Manipulation & Logic)
+JavaScript (ES6 Logic & Validation)
 
 Git & GitHub (Version Control)
 
 GitHub Pages (Deployment)
 
-🧠 How It Works
-User enters a password.
+📂 Project Structure
+Cyber-Security-Assistant/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+🌐 Live Demo
+🔗 https://aman0726-oss.github.io/Cyber-Security-Assistant/
 
-The system checks:
+👥 Contributors
+Vidhi Koypare
+Frontend Development & UI Design
 
-Password length
+Aman Pandey
+JavaScript Logic, Security Validation & GitHub Management
 
-Character variety
+🎯 Project Goal
+To build a practical cybersecurity awareness tool that helps users understand password vulnerabilities and encourages stronger password practices.
 
-Presence of weak patterns
+🔮 Future Enhancements
+Entropy-based strength calculation
 
-A score is calculated out of 10.
+Integration with breach detection APIs
 
-Based on score:
+Password generator module
 
-Strength level is displayed
+Dark mode theme
 
-Crack time is estimated
-
-Security badge is assigned
-
-Suggestions are shown to improve password strength.
-
-📊 Security Levels
-Score  Range	  Level	  Description
-0–3	  Very Weak	  Easily crackable
-4–6	  Moderate	  Needs improvement
-7–8	  Strong	  Good security
-9–10  Very Strong Highly secure
+Backend validation system
